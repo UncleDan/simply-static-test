@@ -1,0 +1,125 @@
+0000.001 (0) Opened log file at time: Wed, 21 Apr 2021 13:55:04 +0000 on http://simply-static-test.test
+0000.013 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.53 WP: 5.7.1 PHP: 7.4.16 (cgi-fcgi, Windows NT DESKTOP03 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.5.9-MariaDB-log WPLANG: it_IT Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1h mod_fcgid/2.3.10-dev safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 53.2M | 8M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.016 (0) Free space on disk containing Updraft's temporary directory: 122115.7 MB
+0000.019 (0) Tasks: Backup files: 0 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.023 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.030 (0) Set semaphore last lock (d) time to 2021-04-21 13:55:04
+0000.032 (0) Semaphore lock (d) complete
+0000.036 (0) Backup run: resumption=0, nonce=470f7ce35701, file_nonce=470f7ce35701 begun at=1619013304 (0s ago), job type=backup
+0000.040 (0) Scheduling a resumption (1) after 300 seconds (1619013604) in case this run gets aborted
+0000.052 (0) This backup run is not intended for files - skipping
+0000.053 (0) Beginning creation of database dump (WordPress DB)
+0000.056 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.069 (0) Table wp_options: Total expected rows (approximate): 297
+0000.142 (0) Table wp_options: Rows added in this batch (next record: 378): 296 (uncompressed bytes in this segment=3332411) in 0.07 seconds
+0000.155 (0) Table wp_options: finishing file(s) (2, 223.9 KB)
+0000.160 (0) Table wp_users: Total expected rows (approximate): 0
+0000.167 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1375) in 0.00 seconds
+0000.178 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0000.183 (0) Table wp_usermeta: Total expected rows (approximate): 18
+0000.188 (0) Table wp_usermeta: Rows added in this batch (next record: 20): 19 (uncompressed bytes in this segment=2042) in 0.00 seconds
+0000.198 (0) Table wp_usermeta: finishing file(s) (2, 1 KB)
+0000.202 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 5
+0000.210 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 10): 5 (uncompressed bytes in this segment=3605) in 0.00 seconds
+0000.227 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1 KB)
+0000.232 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0000.239 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=629) in 0.00 seconds
+0000.250 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.255 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0000.262 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=698) in 0.00 seconds
+0000.272 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0000.277 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 9
+0000.284 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1555) in 0.00 seconds
+0000.295 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.6 KB)
+0000.300 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.305 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+0000.315 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.320 (0) Table wp_comments: Total expected rows (approximate): 0
+0000.326 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2122) in 0.00 seconds
+0000.336 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0000.341 (0) Table wp_links: Total expected rows (approximate): 0
+0000.348 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0000.358 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0000.363 (0) Table wp_postmeta: Total expected rows (approximate): 307
+0000.372 (0) Table wp_postmeta: Rows added in this batch (next record: 371): 307 (uncompressed bytes in this segment=46547) in 0.01 seconds
+0000.383 (0) Table wp_postmeta: finishing file(s) (2, 5.7 KB)
+0000.388 (0) Table wp_posts: Total expected rows (approximate): 61
+0000.401 (0) Table wp_posts: Rows added in this batch (next record: 139): 61 (uncompressed bytes in this segment=85895) in 0.01 seconds
+0000.413 (0) Table wp_posts: finishing file(s) (2, 9.3 KB)
+0000.418 (0) Table wp_term_relationships: Total expected rows (approximate): 6
+0000.428 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 6 (uncompressed bytes in this segment=762) in 0.01 seconds
+0000.438 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0000.443 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0000.452 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=970) in 0.01 seconds
+0000.462 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0000.467 (0) Table wp_termmeta: Total expected rows (approximate): 2
+0000.473 (0) Table wp_termmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=795) in 0.00 seconds
+0000.483 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0000.488 (0) Table wp_terms: Total expected rows (approximate): 3
+0000.494 (0) Table wp_terms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=810) in 0.00 seconds
+0000.503 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0000.509 (0) Table wp_simply_static_pages: Total expected rows (approximate): 100
+0000.518 (0) Table wp_simply_static_pages: Rows added in this batch (next record: 100): 100 (uncompressed bytes in this segment=34582) in 0.01 seconds
+0000.529 (0) Table wp_simply_static_pages: finishing file(s) (2, 4.7 KB)
+0000.534 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 3
+0000.540 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=892) in 0.00 seconds
+0000.551 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0000.553 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_options.table.tmpr379.gz (1/18): adding to final database dump
+0000.616 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_options.table.gz (2/18): adding to final database dump
+0000.618 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_users.table.tmpr2.gz (3/18): adding to final database dump
+0000.620 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_users.table.gz (4/18): adding to final database dump
+0000.622 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_usermeta.table.tmpr21.gz (5/18): adding to final database dump
+0000.624 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_usermeta.table.gz (6/18): adding to final database dump
+0000.626 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_actionscheduler_actions.table.tmpr11.gz (7/18): adding to final database dump
+0000.628 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_actionscheduler_actions.table.gz (8/18): adding to final database dump
+0000.629 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/18): adding to final database dump
+0000.631 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_actionscheduler_claims.table.gz (10/18): adding to final database dump
+0000.633 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/18): adding to final database dump
+0000.635 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_actionscheduler_groups.table.gz (12/18): adding to final database dump
+0000.636 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_actionscheduler_logs.table.tmpr10.gz (13/18): adding to final database dump
+0000.639 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_actionscheduler_logs.table.gz (14/18): adding to final database dump
+0000.641 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_commentmeta.table.tmpr0.gz (15/18): adding to final database dump
+0000.643 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_commentmeta.table.gz (16/18): adding to final database dump
+0000.645 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_comments.table.tmpr2.gz (17/18): adding to final database dump
+0000.647 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_comments.table.gz (18/18): adding to final database dump
+0000.649 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_links.table.tmpr0.gz (19/18): adding to final database dump
+0000.650 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_links.table.gz (20/18): adding to final database dump
+0000.652 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_postmeta.table.tmpr372.gz (21/18): adding to final database dump
+0000.655 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_postmeta.table.gz (22/18): adding to final database dump
+0000.657 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_posts.table.tmpr140.gz (23/18): adding to final database dump
+0000.661 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_posts.table.gz (24/18): adding to final database dump
+0000.663 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_term_relationships.table.tmpr100001.gz (25/18): adding to final database dump
+0000.665 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_term_relationships.table.gz (26/18): adding to final database dump
+0000.667 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_term_taxonomy.table.tmpr4.gz (27/18): adding to final database dump
+0000.668 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_term_taxonomy.table.gz (28/18): adding to final database dump
+0000.671 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_termmeta.table.tmpr3.gz (29/18): adding to final database dump
+0000.672 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_termmeta.table.gz (30/18): adding to final database dump
+0000.674 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_terms.table.tmpr4.gz (31/18): adding to final database dump
+0000.675 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_terms.table.gz (32/18): adding to final database dump
+0000.678 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_simply_static_pages.table.tmpr101.gz (33/18): adding to final database dump
+0000.680 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_simply_static_pages.table.gz (34/18): adding to final database dump
+0000.682 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_wpforms_tasks_meta.table.tmpr4.gz (35/18): adding to final database dump
+0000.683 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db-table-wp_wpforms_tasks_meta.table.gz (36/18): adding to final database dump
+0000.708 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db.gz: finished writing out complete database file (232 KB)
+0000.728 (0) Total database tables backed up: 18 (backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db.gz, size: 253294, sha1: bccadb27da4df0ae3ae4a0fc4b9a1b83a33b4e63, sha256: 84bbabfda693b081d23db77c63acb44a5a5a2a06ad55f4f806fcbed8f94a2d50)
+0000.735 (0) backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.737 (0) Saving backup history. Total backup size: 247.4 KB
+0000.740 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.744 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0000.747 (0) No remote despatch: user chose no remote backup service
+0000.748 (0) Recording as successfully uploaded: backup_2021-04-21-1555_Simply_Static_Test_470f7ce35701-db.gz
+0000.755 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0000.758 (0) Number of backup sets in history: 1; groups (db): 1
+0000.759 (0) Examining (for databases) backup set with group_id=0, nonce=470f7ce35701, datestamp=1619013304 (Apr 21 2021 13:55:04)
+0000.761 (0) This backup set is the backup set just made, so will not be deleted.
+0000.761 (0) Number of backup sets in history: 1; groups (files): 1
+0000.762 (0) Examining (for files) backup set with nonce=470f7ce35701, datestamp=1619013304 (Apr 21 2021 13:55:04)
+0000.762 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.764 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0000.768 (0) Resume backup (470f7ce35701, 0): finish run
+0000.773 (0) Decremented the semaphore (d) by 1
+0000.776 (0) Semaphore (d) unlocked
+0000.777 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0000.782 (0) The backup apparently succeeded and is now complete
+0000.784 (0) No email will/can be sent - the user has not configured an email address.
+0000.786 (0) Il backup apparentemente è riuscito ed ora è completo
